@@ -124,6 +124,7 @@ while readline:
 #-----------------------------------------#
 #                Export                   #
 #-----------------------------------------#
+print("\n" + "Exporting json data and writing to the output file: " + output_filename)
 data = exporter.export(taxTree[0])
 output_file.write(data)
 
@@ -144,5 +145,6 @@ output_file.write(data)
 #-----------------------------------------#
 #               Cleanup                   #
 #-----------------------------------------#
+print("\n" + "Cleaning up and closing files." + "\n")
 lineage_file.close()
 output_file.close()

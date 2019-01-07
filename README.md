@@ -1,4 +1,4 @@
-[![GitHub (pre-)release](https://img.shields.io/badge/Release-v0.3.1-red.svg)](https://github.com/ktmeaton/NCBImeta/releases/tag/v0.3.1)
+[![GitHub (pre-)release](https://img.shields.io/badge/Release-v0.3.1-red.svg)](https://github.com/ktmeaton/NCBImeta/releases/tag/v0.1.0)
 [![GitHub license](https://img.shields.io/github/license/ktmeaton/NCBImeta.svg?style=flat)](https://github.com/ktmeaton/NCBImeta/blob/master/LICENSE)
 
 
@@ -10,7 +10,7 @@ Converts the NCBI taxidlineage.dmp file into JSON format.
 
 ## Version
 
-Stable - Version v0.0.1 (master)
+Stable - Version v0.1.0 (master)
 
 ## Python Requirements
 Python 2.6+ or 3.4+   
@@ -40,6 +40,7 @@ Example using unzip command. Decompress to the "example" output directory.
 ```
 
 ### 3. Convert the taxidlineage.dmp file into json format and write to output file
+Reorganizing life as we know it takes time. Have patience.
 ```
 python ncbitaxonomy2json.py --input example/taxidlineage.dmp --output example/taxidlineage.json
 ```

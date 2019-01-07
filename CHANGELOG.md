@@ -6,9 +6,10 @@ and this project "attempts" to adhere to [Semantic Versioning](http://semver.org
 
 ## [Unreleased]
 
-## [0.0.1] - 2019-01-07
+## [0.1.0] - 2019-01-07
 ### Added
 - Repository Created
+- Usage instructions
 
 https://github.com/ktmeaton/ncbitaxonomy2json
 
