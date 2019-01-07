@@ -14,7 +14,12 @@ Stable - Version v0.1.0 (master)
 
 ## Python Requirements
 Python 2.6+ or 3.4+   
-Module anytree
+Python module: anytree   
+
+Verified usage with:   
+    Python 2.6.6   
+    Python 2.7.11   
+    Python 3.5.1    
 
 ```
 pip install --user anytree
@@ -44,6 +49,10 @@ Reorganizing life as we know it takes time. Have patience.
 ```
 python ncbitaxonomy2json.py --input example/taxidlineage.dmp --output example/taxidlineage.json
 ```
+
+## In Development Features
+Proper error handling for IO and variables.   
+Optional writing scientific names instead of taxonomic ID.   
 
 ## Contributing
 
