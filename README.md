@@ -13,7 +13,7 @@ Converts the NCBI taxidlineage.dmp file into JSON format.
 Stable - Version v0.0.1 (master)
 
 ## Python Requirements
-Python 2.6+ or 3.4+
+Python 2.6+ or 3.4+   
 Module anytree
 
 ```
@@ -22,12 +22,24 @@ pip install --user anytree
 
 ## Installation
 
-git clone https://github.com/ktmeaton/ncbitaxonomy2json.git
+git clone https://github.com/ktmeaton/ncbitaxonomy2json.git   
 cd ncbitaxonomy2json 
 
 ## Usage
 
-### Convert the taxidlineage.dmp file into json format and write to output file
+### 1. Download the ncbi taxonomy dmp files
+Example using wget command. Downloading to the "example" output directory.
+```
+wget -P example ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/new_taxdump/new_taxdump.zip
+```
+
+### 2. Decompress the dmp files
+Example using unzip command. Decompress to the "example" output directory.
+```
+ unzip example/new_taxdump.zip -d example/
+```
+
+### 3. Convert the taxidlineage.dmp file into json format and write to output file
 ```
 python ncbitaxonomy2json.py --input example/taxidlineage.dmp --output example/taxidlineage.json
 ```
