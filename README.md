@@ -6,7 +6,7 @@
 
 # ncbitaxonomy2json
 Converts the NCBI taxidlineage.dmp file into JSON format.
-(Last maintained: Jan 2019)
+(Last maintained: 7 Jan 2019)
 
 ## Version
 
